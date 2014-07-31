@@ -6,7 +6,7 @@ This project aims at building an intelligent restaurant recommender system. Gene
 Folder structure
 ================
 
-convert -> Files in the folder are used to convert the parse the data in JSON format for processing. Since the restaurant ID, user ID are identified using alphanumeric characters these files are used to map the names with the respective IDs.
+convert -> Files in the folder are used to parse the data in JSON format for processing. Since the restaurant ID, user ID are identified using alphanumeric characters these files are used to map the names with the respective IDs.
 
 check -> Just used to check if the mapping is working fine.
 
