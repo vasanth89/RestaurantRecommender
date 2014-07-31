@@ -6,18 +6,24 @@ This project aims at building an intelligent restaurant recommender system. Gene
 Folder structure
 ================
 
-convert -> Files in the folder are used to parse the data in JSON format for processing. Since the restaurant ID, user ID are identified using alphanumeric characters these files are used to map the names with the respective IDs.
+'convert' -> Files in the folder are used to parse the data in JSON format for processing. Since the restaurant ID, user ID are identified using alphanumeric characters these files are used to map the names with the respective IDs.
 
-check -> Just used to check if the mapping is working fine.
+'check' -> Just used to check if the mapping is working fine.
 
-recommend -> Major folder that contains all the necessary files used in recommender system. This project used the Mahout library for building the recommender system and Yelp dataset.
+'recommend' -> Major folder that contains all the necessary files used in recommender system. This project used the Mahout library for building the recommender system and Yelp dataset.
 
 Data Preprocessing
 ==================
 
-Python is a fantastic language! DataPreprocessing.py is the file that has all the code to do the necessary processing of data. Preprocessing is an important step in Data Mining.
+Python is a fantastic language! 'DataPreprocessing.py' is the file that has all the code to do the necessary processing of data. Preprocessing is an important step in Data Mining.
 
 Diagram
 =======
 
-ClassDiagram.png -> Gives a clear picture about the class structure used while building the recommender system on top of the Mahout libraries.
+'ClassDiagram.png' -> Gives a clear picture about the class structure used while building the recommender system on top of the Mahout libraries.
+
+Dataset
+=======
+
+A big thanks to "Yelp" for providing the data set for my evaluation. 'SampleData.txt' shows some sample data. The data is in JSON format which can then be converted into our format of choice(I chose csv). The dataset is made up of many objects - I specifically used 3 of them: Business objects(containing restaurant information), User objects, Review objects
+For a detailed explanation: https://www.yelp.com/academic_dataset
