@@ -11,3 +11,13 @@ convert -> Files in the folder are used to parse the data in JSON format for pro
 check -> Just used to check if the mapping is working fine.
 
 recommend -> Major folder that contains all the necessary files used in recommender system. This project used the Mahout library for building the recommender system and Yelp dataset.
+
+Data Preprocessing
+==================
+
+Python is a fantastic language! DataPreprocessing.py is the file that has all the code to do the necessary processing of data. Preprocessing is an important step in Data Mining.
+
+Diagram
+=======
+
+ClassDiagram.png -> Gives a clear picture about the class structure used while building the recommender system on top of the Mahout libraries.
